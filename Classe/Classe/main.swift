@@ -29,3 +29,53 @@ class Automovel {
         print("O carro está ligado")
     }
 }
+
+class Cachorro {
+    var raça: String = "Husky"
+    var peso: Double = 40.7
+    var cor: String = "Branco"
+    var idade: Int = 5
+    var porte: String = "Grande"
+    
+    func darcomida() {
+        print("O \(raça) esta comendo")
+    }
+    func passear(){
+        print("O \(raça) esta passeando")
+    }
+}
+
+class Pessoa {
+    var nome: String = "Barbara"
+    var idade: Int = 27
+    var altura: Double = 1.54
+    var peso: Double = 53.5
+    var profissao: String = "Engenheira"
+    
+    func comer() {
+        print("\(nome) esta comendo")
+    }
+    func trabalhando(){
+        print("\(nome) esta trabalhando")
+    }
+}
+
+class Filme {
+        var titulo: String = "As Branquelas"
+        var diretor: String = "Keenen Ivory Wayans"
+        var anoLancamento: Int = 2004
+        var duracao: Int = 109
+        var genero: String = "Comedia"
+    
+    func reproduzir() {
+            print("O filme \(titulo) está sendo reproduzido.")
+        }
+        
+        func pausar() {
+            print("O filme \(titulo) foi pausado.")
+        }
+}
+
+
+
+
