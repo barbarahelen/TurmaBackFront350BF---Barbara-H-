@@ -31,7 +31,7 @@ class Automovel {
 }
 
 class Cachorro {
-    var raça: String = "Husky"
+    var raca: String = "Husky"
     var peso: Double = 40.7
     var cor: String = "Branco"
     var idade: Int = 5
