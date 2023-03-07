@@ -38,10 +38,10 @@ class Cachorro {
     var porte: String = "Grande"
     
     func darcomida() {
-        print("O \(raça) esta comendo")
+        print("O cachorro esta comendo")
     }
     func passear(){
-        print("O \(raça) esta passeando")
+        print("O cachorro esta passeando")
     }
 }
 
@@ -53,10 +53,10 @@ class Pessoa {
     var profissao: String = "Engenheira"
     
     func comer() {
-        print("\(nome) esta comendo")
+        print("A pessoa esta comendo")
     }
     func trabalhando(){
-        print("\(nome) esta trabalhando")
+        print("A pessoa esta trabalhando")
     }
 }
 
@@ -68,11 +68,11 @@ class Filme {
         var genero: String = "Comedia"
     
     func reproduzir() {
-            print("O filme \(titulo) está sendo reproduzido.")
+            print("O filme está sendo reproduzido.")
         }
         
         func pausar() {
-            print("O filme \(titulo) foi pausado.")
+            print("O filme foi pausado.")
         }
 }
 
