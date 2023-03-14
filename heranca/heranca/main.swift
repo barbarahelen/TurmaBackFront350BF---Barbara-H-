@@ -77,9 +77,42 @@ print(meuNomeBarbara.peso)
 // Uma das classes filhas deve conter contrutor indicando os valores de todas as suas propriedades.
 
 
+//Classe pai
 
+class Pai {
+    var nome: String
+    var idade: Int
+    var altura: Double
+    
+    init(nome: String, idade: Int, altura: Double) {
+        self.nome = nome
+        self.idade = idade
+        self.altura = altura
+    }
+    
+    func comer() {
+        print("A pessoa esta comendo")
+    }
+    func respirar(){
+        print("A pessoa esta trabalhando")
+    }
+}
 
+class Filho1: Pessoa {
+    var peso: Double
+    var escola: String
+    var anonascimento: Int
+    
+    init(peso: Double, escola: String, anonascimento: Int) {
+        self.peso = peso
+        self.escola = escola
+        self.anonascimento = anonascimento
+        super.init(Pai: Pai)
+    }
+    
+}
 
-
-
+class Filho2: Pessoa {
+    
+}
 
