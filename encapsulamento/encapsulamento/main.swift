@@ -32,6 +32,9 @@ class Carro {
 
 var meuCarro: Carro = Carro(modelo: "BMW 320i")
 
-print(meuCarro.getModelo())
-meuCarro.setModelo(modelo: "La Ferrari")
-print(meuCarro.getModelo())
+
+
+
+
+
+
