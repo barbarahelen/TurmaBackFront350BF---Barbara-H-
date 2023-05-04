@@ -7,23 +7,35 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		382F94BB2A01AE82005696F1 /* TabBarController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 382F94BA2A01AE82005696F1 /* TabBarController.swift */; };
+		38476AE02A008BEE00726B35 /* RegisterViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 38476ADF2A008BEE00726B35 /* RegisterViewController.swift */; };
+		38476AE72A008C4200726B35 /* DeletedItemsViewControllerViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 38476AE62A008C4200726B35 /* DeletedItemsViewControllerViewController.swift */; };
+		386278222A01BC2A005E3786 /* RegisterTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 386278202A01BC2A005E3786 /* RegisterTableViewCell.swift */; };
+		386278232A01BC2A005E3786 /* RegisterTableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 386278212A01BC2A005E3786 /* RegisterTableViewCell.xib */; };
+		386278262A01CE41005E3786 /* Profile.swift in Sources */ = {isa = PBXBuildFile; fileRef = 386278252A01CE41005E3786 /* Profile.swift */; };
 		38C6732A29F8B623008F8DA3 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 38C6732929F8B623008F8DA3 /* AppDelegate.swift */; };
 		38C6732C29F8B623008F8DA3 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 38C6732B29F8B623008F8DA3 /* SceneDelegate.swift */; };
-		38C6732E29F8B623008F8DA3 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 38C6732D29F8B623008F8DA3 /* ViewController.swift */; };
 		38C6733129F8B623008F8DA3 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 38C6732F29F8B623008F8DA3 /* Main.storyboard */; };
 		38C6733329F8B624008F8DA3 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 38C6733229F8B624008F8DA3 /* Assets.xcassets */; };
 		38C6733629F8B624008F8DA3 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 38C6733429F8B624008F8DA3 /* LaunchScreen.storyboard */; };
+		38C6B0A12A00A1C700381F6E /* StudentListViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 38C6B0A02A00A1C700381F6E /* StudentListViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		382F94BA2A01AE82005696F1 /* TabBarController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TabBarController.swift; sourceTree = "<group>"; };
+		38476ADF2A008BEE00726B35 /* RegisterViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RegisterViewController.swift; sourceTree = "<group>"; };
+		38476AE62A008C4200726B35 /* DeletedItemsViewControllerViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DeletedItemsViewControllerViewController.swift; sourceTree = "<group>"; };
+		386278202A01BC2A005E3786 /* RegisterTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RegisterTableViewCell.swift; sourceTree = "<group>"; };
+		386278212A01BC2A005E3786 /* RegisterTableViewCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = RegisterTableViewCell.xib; sourceTree = "<group>"; };
+		386278252A01CE41005E3786 /* Profile.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Profile.swift; sourceTree = "<group>"; };
 		38C6732629F8B623008F8DA3 /* DesafioTabBar.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = DesafioTabBar.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		38C6732929F8B623008F8DA3 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		38C6732B29F8B623008F8DA3 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
-		38C6732D29F8B623008F8DA3 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		38C6733029F8B623008F8DA3 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		38C6733229F8B624008F8DA3 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		38C6733529F8B624008F8DA3 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		38C6733729F8B624008F8DA3 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		38C6B0A02A00A1C700381F6E /* StudentListViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StudentListViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -37,6 +49,56 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		38476ADE2A008BC300726B35 /* Register */ = {
+			isa = PBXGroup;
+			children = (
+				3862781F2A01BBE0005E3786 /* Cell */,
+				38476ADF2A008BEE00726B35 /* RegisterViewController.swift */,
+			);
+			path = Register;
+			sourceTree = "<group>";
+		};
+		38476AE12A008C0000726B35 /* StudentList */ = {
+			isa = PBXGroup;
+			children = (
+				38C6B0A02A00A1C700381F6E /* StudentListViewController.swift */,
+			);
+			path = StudentList;
+			sourceTree = "<group>";
+		};
+		38476AE52A008C2900726B35 /* DeletedItems */ = {
+			isa = PBXGroup;
+			children = (
+				38476AE62A008C4200726B35 /* DeletedItemsViewControllerViewController.swift */,
+			);
+			path = DeletedItems;
+			sourceTree = "<group>";
+		};
+		38476AE82A0090EF00726B35 /* TabBar */ = {
+			isa = PBXGroup;
+			children = (
+				382F94BA2A01AE82005696F1 /* TabBarController.swift */,
+			);
+			path = TabBar;
+			sourceTree = "<group>";
+		};
+		3862781F2A01BBE0005E3786 /* Cell */ = {
+			isa = PBXGroup;
+			children = (
+				386278202A01BC2A005E3786 /* RegisterTableViewCell.swift */,
+				386278212A01BC2A005E3786 /* RegisterTableViewCell.xib */,
+			);
+			path = Cell;
+			sourceTree = "<group>";
+		};
+		386278242A01CE31005E3786 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				386278252A01CE41005E3786 /* Profile.swift */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
 		38C6731D29F8B623008F8DA3 = {
 			isa = PBXGroup;
 			children = (
@@ -56,9 +118,13 @@
 		38C6732829F8B623008F8DA3 /* DesafioTabBar */ = {
 			isa = PBXGroup;
 			children = (
+				386278242A01CE31005E3786 /* Model */,
+				38476ADE2A008BC300726B35 /* Register */,
+				38476AE12A008C0000726B35 /* StudentList */,
+				38476AE52A008C2900726B35 /* DeletedItems */,
+				38476AE82A0090EF00726B35 /* TabBar */,
 				38C6732929F8B623008F8DA3 /* AppDelegate.swift */,
 				38C6732B29F8B623008F8DA3 /* SceneDelegate.swift */,
-				38C6732D29F8B623008F8DA3 /* ViewController.swift */,
 				38C6732F29F8B623008F8DA3 /* Main.storyboard */,
 				38C6733229F8B624008F8DA3 /* Assets.xcassets */,
 				38C6733429F8B624008F8DA3 /* LaunchScreen.storyboard */,
@@ -127,6 +193,7 @@
 			files = (
 				38C6733629F8B624008F8DA3 /* LaunchScreen.storyboard in Resources */,
 				38C6733329F8B624008F8DA3 /* Assets.xcassets in Resources */,
+				386278232A01BC2A005E3786 /* RegisterTableViewCell.xib in Resources */,
 				38C6733129F8B623008F8DA3 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -138,9 +205,14 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				38C6732E29F8B623008F8DA3 /* ViewController.swift in Sources */,
+				38C6B0A12A00A1C700381F6E /* StudentListViewController.swift in Sources */,
+				386278262A01CE41005E3786 /* Profile.swift in Sources */,
+				38476AE72A008C4200726B35 /* DeletedItemsViewControllerViewController.swift in Sources */,
 				38C6732A29F8B623008F8DA3 /* AppDelegate.swift in Sources */,
+				386278222A01BC2A005E3786 /* RegisterTableViewCell.swift in Sources */,
+				382F94BB2A01AE82005696F1 /* TabBarController.swift in Sources */,
 				38C6732C29F8B623008F8DA3 /* SceneDelegate.swift in Sources */,
+				38476AE02A008BEE00726B35 /* RegisterViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

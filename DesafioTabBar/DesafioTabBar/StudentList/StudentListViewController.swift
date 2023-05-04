@@ -1,19 +1,21 @@
 //
-//  ViewController.swift
+//  StudentListViewController.swift
 //  DesafioTabBar
 //
-//  Created by Barbara Silva on 2023-04-25.
+//  Created by Barbara Silva on 2023-05-01.
 //
 
 import UIKit
 
-class ViewController: UIViewController {
+class StudentListViewController: UITabBarController {
 
+    
     override func viewDidLoad() {
         super.viewDidLoad()
+
         // Do any additional setup after loading the view.
     }
+    
 
 
 }
-

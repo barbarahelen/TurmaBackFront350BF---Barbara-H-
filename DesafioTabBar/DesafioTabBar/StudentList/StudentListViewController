@@ -1,0 +1,22 @@
+//
+//  ListViewController.swift
+//  DesafioTabBar
+//
+//  Created by Barbara Silva on 2023-05-01.
+//
+
+import UIKit
+
+class StudentListViewController: UIViewController {
+
+    override func viewWillAppear(_ animated: Bool) {
+    
+    }
+    
+    override func viewDidLoad() {
+        super.viewDidLoad()
+    }
+    
+    
+
+}
