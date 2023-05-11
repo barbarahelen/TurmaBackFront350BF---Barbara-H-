@@ -1,0 +1,80 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="21507" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES">
+    <device id="retina6_12" orientation="portrait" appearance="light"/>
+    <dependencies>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="21505"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="System colors in document resources" minToolsVersion="11.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <scenes>
+        <!--Selection View Controller-->
+        <scene sceneID="s0d-6b-0kx">
+            <objects>
+                <viewController id="Y6W-OH-hqX" customClass="SelectionViewController" customModule="notificationCenterEProtocol" customModuleProvider="target" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="5EZ-qb-Rvc">
+                        <rect key="frame" x="0.0" y="0.0" width="393" height="852"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" ambiguous="YES" text="Opçōes" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Noc-lw-SUk">
+                                <rect key="frame" x="131" y="112" width="131" height="42"/>
+                                <fontDescription key="fontDescription" type="system" weight="heavy" pointSize="35"/>
+                                <color key="textColor" systemColor="systemYellowColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="xPm-PP-Dzb">
+                                <rect key="frame" x="113.66666666666669" y="449" width="166" height="176"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="176" id="Jau-fQ-DxU"/>
+                                    <constraint firstAttribute="width" constant="166" id="XrC-kn-j8b"/>
+                                </constraints>
+                                <inset key="imageEdgeInsets" minX="0.0" minY="0.0" maxX="2.2250738585072014e-308" maxY="0.0"/>
+                                <state key="normal" title="Button" image="Image 1"/>
+                                <connections>
+                                    <action selector="tappedpc02Button:" destination="Y6W-OH-hqX" eventType="touchUpInside" id="QYE-V8-10x"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Ahd-ao-GsV">
+                                <rect key="frame" x="109" y="259" width="175" height="115"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="115" id="Owd-8b-nbf"/>
+                                    <constraint firstAttribute="width" constant="175" id="l00-KI-3iJ"/>
+                                </constraints>
+                                <inset key="imageEdgeInsets" minX="0.0" minY="0.0" maxX="2.2250738585072014e-308" maxY="0.0"/>
+                                <state key="normal" image="Image 4"/>
+                                <connections>
+                                    <action selector="tappedpc01Button:" destination="Y6W-OH-hqX" eventType="touchUpInside" id="A20-bK-tTD"/>
+                                </connections>
+                            </button>
+                        </subviews>
+                        <viewLayoutGuide key="safeArea" id="vDu-zF-Fre"/>
+                        <color key="backgroundColor" systemColor="labelColor"/>
+                        <constraints>
+                            <constraint firstItem="Ahd-ao-GsV" firstAttribute="top" secondItem="Noc-lw-SUk" secondAttribute="bottom" constant="105" id="56v-Vr-m22"/>
+                            <constraint firstItem="xPm-PP-Dzb" firstAttribute="top" secondItem="Ahd-ao-GsV" secondAttribute="bottom" constant="75" id="F3L-sC-4wV"/>
+                            <constraint firstItem="vDu-zF-Fre" firstAttribute="bottom" secondItem="xPm-PP-Dzb" secondAttribute="bottom" constant="193" id="c8d-wh-fFi"/>
+                            <constraint firstItem="xPm-PP-Dzb" firstAttribute="centerX" secondItem="5EZ-qb-Rvc" secondAttribute="centerX" id="k10-nS-gTN"/>
+                            <constraint firstItem="Ahd-ao-GsV" firstAttribute="centerX" secondItem="5EZ-qb-Rvc" secondAttribute="centerX" id="uma-XE-upG"/>
+                        </constraints>
+                    </view>
+                    <connections>
+                        <outlet property="pc01Button" destination="Ahd-ao-GsV" id="V04-CL-zAy"/>
+                        <outlet property="pc2Button" destination="xPm-PP-Dzb" id="Du2-hg-39x"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="Ief-a0-LHa" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="130.53435114503816" y="-34.507042253521128"/>
+        </scene>
+    </scenes>
+    <resources>
+        <image name="Image 1" width="512" height="512"/>
+        <image name="Image 4" width="1499" height="802"/>
+        <systemColor name="labelColor">
+            <color red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+        </systemColor>
+        <systemColor name="systemYellowColor">
+            <color red="1" green="0.80000000000000004" blue="0.0" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+        </systemColor>
+    </resources>
+</document>
